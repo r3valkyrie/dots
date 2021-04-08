@@ -24,7 +24,7 @@ export EDITOR='vim'
 
 # Prompt
 autoload -Uz vcs_info
-zstyle ':vcs_info:git:*' formats ' [%b]'
+zstyle ':vcs_info:git:*' formats ' [%F{red}%b%f]'
 precmd() { vcs_info }
 
 PROMPT='%~${vcs_info_msg_0_} $ '
