@@ -3,6 +3,7 @@ font:
     family: Hack
   bold:
     family: Hack
+    style: Regular
   size: 10
 
 window:
