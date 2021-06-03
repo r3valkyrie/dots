@@ -15,6 +15,9 @@ setopt interactivecomments
 setopt rcexpandparam
 setopt prompt_subst
 
+HISTFILE=
+HISTSIZE=SAVEHIST=50
+
 # General settings
 umask 022
 stty -ixon
@@ -33,5 +36,11 @@ PROMPT='%~${vcs_info_msg_0_} $ '
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
     exec tmux;
 fi
+
+# Path
+export PATH=$PATH:$HOME/.bin
+
+# Editor
+export EDITOR=vim
 
 command task

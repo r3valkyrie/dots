@@ -2,6 +2,7 @@ alias vi='vim'
 alias weather='curl wttr.in'
 alias py='python'
 alias cp='cp -i'
+alias winreboot='systemctl reboot --boot-loader-entry=auto-windows'
 
 alias t='tmux attach || tmux new-session'
 alias ta='tmux attach -t'
