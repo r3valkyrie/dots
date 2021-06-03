@@ -1,9 +1,8 @@
 font:
   normal:
-    family: Hack
+    family: Iosevka
   bold:
-    family: Hack
-    style: Regular
+    family: Iosevka
   size: 10
 
 window:
