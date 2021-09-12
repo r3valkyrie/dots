@@ -1,0 +1,4 @@
+nag=You have high priority tasks that need to be completed!
+
+# Disable font underline.
+fontunderline=off
