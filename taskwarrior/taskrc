@@ -2,3 +2,6 @@ nag=You have high priority tasks that need to be completed!
 
 # Disable font underline.
 fontunderline=off
+
+# Reduce urgency coefficient for later tag.
+urgency.user.tag.later.coefficient=-6.0
