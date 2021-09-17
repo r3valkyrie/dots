@@ -43,4 +43,4 @@ export PATH=$PATH:$HOME/.bin
 # Editor
 export EDITOR=vim
 
-command task
+command task +WEEK next
